@@ -1,0 +1,229 @@
+<html lang="en"><head>
+    <title>Address Book</title>
+    <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="9wvZvh1pbSI76BWD+bRYmQKSexVyU+wvz6VLab/FioYWaTjFgttTFKnHLMHBqq31gm5L7MCVsFCyBBgZqIJ1Jw==">
+
+<link rel="stylesheet" media="all" href="/assets/application-41d9d06b75ab9755649e680d635d5579d5ec029715225b43f7af6347e20fb48a.css" data-turbolinks-track="reload">
+<script src="/assets/application-8c3a71ec59b2f7652f2a644a5d7bc1fdce71ef1bd8426a4ca688a10b4e8fa1d6.js" data-turbolinks-track="reload"></script>
+
+
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+<!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
+<script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv/min.js"></script>
+<script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+  </head>
+
+  <body>
+  <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbar">
+    <div class="navbar-nav mr-auto">
+      <a class="nav-item nav-link active" data-test="home" href="/">
+          Home
+          <span class="sr-only">(current)</span>
+</a>          <a class="nav-item nav-link" data-test="addresses" href="/addresses">Addresses</a>
+          <a class="nav-item nav-link" data-test="sign-out" rel="nofollow" data-method="delete" href="/sign_out">Sign out</a>
+    </div>
+
+    <div>
+        <span class="navbar-text" data-test="current-user">mail12@gmail.com</span>
+    </div>
+  </div>
+</nav>
+
+  <div class="container">
+        <div class="alert alert-notice" data-test="notice">Address was successfully destroyed.</div>
+
+    <h2>Addresses</h2>
+
+<table class="table">
+  <thead class="thead-default">
+    <tr>
+      <th>First name</th>
+      <th>Last name</th>
+      <th>City</th>
+      <th>State</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+      <tr>
+        <td>Julia</td>
+        <td>Brosn</td>
+        <td>New York</td>
+        <td>NY</td>
+        <td><a data-test="show-6559" href="/addresses/6559">Show</a></td>
+        <td><a data-test="edit-6559" href="/addresses/6559/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" data-test="destroy-6559" rel="nofollow" data-method="delete" href="/addresses/6559">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Julia</td>
+        <td>Brosn</td>
+        <td>New York</td>
+        <td>NY</td>
+        <td><a data-test="show-6562" href="/addresses/6562">Show</a></td>
+        <td><a data-test="edit-6562" href="/addresses/6562/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" data-test="destroy-6562" rel="nofollow" data-method="delete" href="/addresses/6562">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Julia</td>
+        <td>Brosn</td>
+        <td>New York</td>
+        <td>NY</td>
+        <td><a data-test="show-6563" href="/addresses/6563">Show</a></td>
+        <td><a data-test="edit-6563" href="/addresses/6563/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" data-test="destroy-6563" rel="nofollow" data-method="delete" href="/addresses/6563">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Julia</td>
+        <td>Brosn</td>
+        <td>New York</td>
+        <td>NY</td>
+        <td><a data-test="show-6564" href="/addresses/6564">Show</a></td>
+        <td><a data-test="edit-6564" href="/addresses/6564/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" data-test="destroy-6564" rel="nofollow" data-method="delete" href="/addresses/6564">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Julia</td>
+        <td>Brosn</td>
+        <td>New York</td>
+        <td>NY</td>
+        <td><a data-test="show-6589" href="/addresses/6589">Show</a></td>
+        <td><a data-test="edit-6589" href="/addresses/6589/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" data-test="destroy-6589" rel="nofollow" data-method="delete" href="/addresses/6589">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Julia</td>
+        <td>Brosn</td>
+        <td>New York</td>
+        <td>NY</td>
+        <td><a data-test="show-6658" href="/addresses/6658">Show</a></td>
+        <td><a data-test="edit-6658" href="/addresses/6658/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" data-test="destroy-6658" rel="nofollow" data-method="delete" href="/addresses/6658">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Julia</td>
+        <td>Brosn</td>
+        <td>New York</td>
+        <td>AL</td>
+        <td><a data-test="show-6660" href="/addresses/6660">Show</a></td>
+        <td><a data-test="edit-6660" href="/addresses/6660/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" data-test="destroy-6660" rel="nofollow" data-method="delete" href="/addresses/6660">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Julia</td>
+        <td>Brosn</td>
+        <td>New York</td>
+        <td>AL</td>
+        <td><a data-test="show-6661" href="/addresses/6661">Show</a></td>
+        <td><a data-test="edit-6661" href="/addresses/6661/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" data-test="destroy-6661" rel="nofollow" data-method="delete" href="/addresses/6661">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Julia</td>
+        <td>Brosn</td>
+        <td>New York</td>
+        <td>NY</td>
+        <td><a data-test="show-6663" href="/addresses/6663">Show</a></td>
+        <td><a data-test="edit-6663" href="/addresses/6663/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" data-test="destroy-6663" rel="nofollow" data-method="delete" href="/addresses/6663">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Julia</td>
+        <td>Brosn</td>
+        <td>New York</td>
+        <td>NY</td>
+        <td><a data-test="show-6829" href="/addresses/6829">Show</a></td>
+        <td><a data-test="edit-6829" href="/addresses/6829/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" data-test="destroy-6829" rel="nofollow" data-method="delete" href="/addresses/6829">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Julia</td>
+        <td>Brosn</td>
+        <td>New York</td>
+        <td>NY</td>
+        <td><a data-test="show-7011" href="/addresses/7011">Show</a></td>
+        <td><a data-test="edit-7011" href="/addresses/7011/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" data-test="destroy-7011" rel="nofollow" data-method="delete" href="/addresses/7011">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Julia</td>
+        <td>Brosn</td>
+        <td>New York</td>
+        <td>NY</td>
+        <td><a data-test="show-7012" href="/addresses/7012">Show</a></td>
+        <td><a data-test="edit-7012" href="/addresses/7012/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" data-test="destroy-7012" rel="nofollow" data-method="delete" href="/addresses/7012">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Julia</td>
+        <td>Brosn</td>
+        <td>New York</td>
+        <td>NY</td>
+        <td><a data-test="show-7017" href="/addresses/7017">Show</a></td>
+        <td><a data-test="edit-7017" href="/addresses/7017/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" data-test="destroy-7017" rel="nofollow" data-method="delete" href="/addresses/7017">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Julia</td>
+        <td>Brosn</td>
+        <td>New York</td>
+        <td>AL</td>
+        <td><a data-test="show-7224" href="/addresses/7224">Show</a></td>
+        <td><a data-test="edit-7224" href="/addresses/7224/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" data-test="destroy-7224" rel="nofollow" data-method="delete" href="/addresses/7224">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Julia</td>
+        <td>Brosn</td>
+        <td>New York</td>
+        <td>AL</td>
+        <td><a data-test="show-7234" href="/addresses/7234">Show</a></td>
+        <td><a data-test="edit-7234" href="/addresses/7234/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" data-test="destroy-7234" rel="nofollow" data-method="delete" href="/addresses/7234">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Julia</td>
+        <td>Brosn</td>
+        <td>New York</td>
+        <td>AL</td>
+        <td><a data-test="show-7236" href="/addresses/7236">Show</a></td>
+        <td><a data-test="edit-7236" href="/addresses/7236/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" data-test="destroy-7236" rel="nofollow" data-method="delete" href="/addresses/7236">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>Julia</td>
+        <td>Brosn</td>
+        <td>New York</td>
+        <td>AL</td>
+        <td><a data-test="show-7246" href="/addresses/7246">Show</a></td>
+        <td><a data-test="edit-7246" href="/addresses/7246/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" data-test="destroy-7246" rel="nofollow" data-method="delete" href="/addresses/7246">Destroy</a></td>
+      </tr>
+  </tbody>
+</table>
+
+<br>
+
+<a class="row justify-content-center" data-test="create" href="/addresses/new">New Address</a>
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+  
+
+</body></html>

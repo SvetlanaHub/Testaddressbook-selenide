@@ -1,0 +1,145 @@
+<html lang="en"><head>
+    <title>Address Book</title>
+    <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="oA35iVIV5kg+8vu9jROst8ixrWQXqLk8A5soFt9Z/fe/MHdasaKO4VfbCgpBF+76zyYe4KgDZIMm+T5MaDJjEQ==">
+
+<link rel="stylesheet" media="all" href="/assets/application-41d9d06b75ab9755649e680d635d5579d5ec029715225b43f7af6347e20fb48a.css" data-turbolinks-track="reload">
+<script src="/assets/application-8c3a71ec59b2f7652f2a644a5d7bc1fdce71ef1bd8426a4ca688a10b4e8fa1d6.js" data-turbolinks-track="reload"></script>
+
+
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+<!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
+<script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv/min.js"></script>
+<script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+  </head>
+
+  <body>
+  <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbar">
+    <div class="navbar-nav mr-auto">
+      <a class="nav-item nav-link active" data-test="home" href="/">
+          Home
+          <span class="sr-only">(current)</span>
+</a>          <a class="nav-item nav-link" data-test="addresses" href="/addresses">Addresses</a>
+          <a class="nav-item nav-link" data-test="sign-out" rel="nofollow" data-method="delete" href="/sign_out">Sign out</a>
+    </div>
+
+    <div>
+        <span class="navbar-text" data-test="current-user">mail12@gmail.com</span>
+    </div>
+  </div>
+</nav>
+
+  <div class="container">
+        <div class="alert alert-notice" data-test="notice">Address was successfully created.</div>
+
+    <p class="row no-gutters">
+  <span class="col-3 col-md-2"><strong>First name: </strong></span>
+  <span class="col offset-1 offset-sm-0" data-test="first_name"> Julia</span>
+</p>
+
+<p class="row no-gutters">
+  <span class="col-3 col-md-2"><strong>Last name: </strong></span>
+  <span class="col offset-1 offset-sm-0" data-test="last_name"> Brosn</span>
+</p>
+
+<p class="row no-gutters">
+  <span class="col-3 col-md-2"><strong>Street Address: </strong></span>
+  <span class="col offset-1 offset-sm-0" data-test="street_address"> Park Ave</span>
+</p>
+
+<p class="row no-gutters">
+  <span class="col-3 col-md-2"><strong>Secondary Address: </strong></span>
+  <span class="col offset-1 offset-sm-0" data-test="secondary_address"> Park Ave S</span>
+</p>
+
+<p class="row no-gutters">
+  <span class="col-3 col-md-2"><strong>City: </strong></span>
+  <span class="col offset-1 offset-sm-0" data-test="city"> New York</span>
+</p>
+
+<p class="row no-gutters">
+  <span class="col-3 col-md-2"><strong>State: </strong></span>
+  <span class="col offset-1 offset-sm-0" data-test="state"> NY</span>
+</p>
+
+<p class="row no-gutters">
+  <span class="col-3 col-md-2"><strong>Zip code: </strong></span>
+  <span class="col offset-1 offset-sm-0" data-test="zip_code"> 10001</span>
+</p>
+
+<p class="row no-gutters">
+  <span class="col-3 col-md-2"><strong>Country: </strong></span>
+  <span class="col offset-1 offset-sm-0" data-test="country"> us</span>
+</p>
+
+<p class="row no-gutters">
+  <span class="col-3 col-md-2"><strong>Birthday: </strong></span>
+  <span class="col offset-1 offset-sm-0" data-test="birthday"> 6/12/1953</span>
+</p>
+
+<p class="row no-gutters">
+  <span class="col-3 col-md-2"><strong>Color: </strong></span>
+  <span data-test="color" style="width: 25px; height: 25px; background: #dc143c"></span>
+</p>
+
+<p class="row no-gutters">
+  <span class="col-3 col-md-2"><strong>Age: </strong></span>
+  <span class="col offset-1 offset-sm-0" data-test="age"> 68</span>
+</p>
+
+<p class="row no-gutters">
+  <span class="col-3 col-md-2"><strong>Website: </strong></span>
+  <span class="col offset-1 offset-sm-0" data-test="website"> https://www.whitepages.com</span>
+</p>
+
+<p class="row no-gutters">
+  <span class="col-3 col-md-2"><strong>Phone: </strong></span>
+  <span class="col offset-1 offset-sm-0" data-test="phone"> +1 212 678-193-206</span>
+</p>
+
+<p class="row no-gutters">
+  <span class="col-3 col-md-2"><strong>Climbing? </strong></span>
+  <span class="col offset-1 offset-sm-0" data-test="interest_climb"> No</span>
+</p>
+
+<p class="row no-gutters">
+  <span class="col-3 col-md-2"><strong>Dancing? </strong></span>
+  <span class="col offset-1 offset-sm-0" data-test="interest_dance"> No</span>
+</p>
+
+<p class="row no-gutters">
+  <span class="col-3 col-md-2"><strong>Reading? </strong></span>
+  <span class="col offset-1 offset-sm-0" data-test="interest_read"> Yes</span>
+</p>
+
+<p class="row no-gutters">
+  <span class="col-3 col-md-2"><strong>Note: </strong></span>
+  <span class="col offset-1 offset-sm-0" data-test="note">-</span>
+</p>
+
+<div class="row justify-content-center">
+  <a data-test="edit" href="/addresses/7236/edit">Edit</a>
+  &nbsp; | &nbsp;
+  <a data-test="list" href="/addresses">List</a>
+</div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+  
+
+</body></html>
